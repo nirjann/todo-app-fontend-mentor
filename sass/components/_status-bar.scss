@@ -1,0 +1,11 @@
+@use '../abstracts' as *;
+.status-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.active {
+    color: $primary;
+}

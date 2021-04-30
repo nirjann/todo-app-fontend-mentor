@@ -1,0 +1,28 @@
+@use '../abstracts' as *;
+
+html {
+
+    font-family: $main-font;
+    font-weight: 400;
+}
+body {
+    background-color: map-get($map: $dark, $key: 'veryDarkBlue');
+
+}
+hr {
+    display: block;
+    width: 100%;
+    height: 0.2px;
+    padding:0;
+    border: 0px;
+    border-top: 0.2px solid map-get($map: $dark, $key: 'darkGrayishBlue');
+}
+
+form {
+    display: inline-block;
+}
+
+a {
+    color: map-get($map: $dark, $key: 'darkGrayishBlue' );
+    display: inline-block;
+}

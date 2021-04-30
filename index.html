@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./dist/main.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <img src="./images/bg-desktop-dark.jpg" alt="" />
+    </header>
+
+    <section >
+      
+      <div class="main">
+        <h1>TODO</h1>
+          <div class=" text-bar" id="current-input">
+            <div class="radio-btn" id="active-radio">
+              <img
+                src="./images/icon-check.svg"
+                alt=""
+                class="check-icon check-icon__checked"
+              />
+            </div>
+            <form id='form'>
+            <input
+              type="text"
+              name="new-todo"
+              id="current-task"
+              placeholder="Create a new todo...",
+        
+            /></form>
+          </div>
+        <div class="task-list">
+        
+            <ul class="todo-list">
+        
+            </ul>
+            <div class="status-bar">
+              <a href="">items left</a>
+              <div class="status-links">
+                <a href="" id="link-all" class="">All</a>
+                <a href="" id="link-active">Active</a>
+                <a href="" id="link-completed">Completed</a>
+              </div>
+              <a href="">Clear Completed</a>
+            </div>
+        </div>
+      </div>
+
+        
+    </section>
+    <script src="./js/main.js"></script>
+    <script src="./js/todo_func.js"></script>
+  </body>
+</html>

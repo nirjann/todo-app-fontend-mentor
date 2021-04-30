@@ -1,0 +1,30 @@
+@use '../abstracts' as *;
+
+.radio-btn {
+    height: 20px;
+    width: 20px;
+    border:1px solid map-get($map: $dark, $key: 'darkGrayishBlue');
+    background-color:none;
+    border-radius: 100%;
+    display: inline-block;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.radio-btn__clicked {
+    background: linear-gradient(to right, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+    text-align: center;
+    
+}
+
+.check-icon {
+    max-width: 100%;
+    position: relative;
+    top: 2px;
+    left: 0.5px;
+    display: none;
+}
+
+.check-icon__checked {
+    display: none;
+}
