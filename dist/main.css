@@ -74,10 +74,22 @@ a {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  cursor: pointer;
 }
 
 .task-text {
   color: #777a92;
+}
+
+.cross-icon {
+  margin-left: auto;
+  margin-right: 10px;
+  cursor: pointer;
+  display: none;
+}
+
+.task-item:hover .cross-icon {
+  display: inline-block;
 }
 
 .radio-btn {
@@ -89,6 +101,7 @@ a {
   display: inline-block;
   margin: 15px;
   cursor: pointer;
+  text-align: center;
 }
 
 .radio-btn__clicked {
@@ -105,7 +118,7 @@ a {
 }
 
 .check-icon__checked {
-  display: none;
+  display: inline;
 }
 
 .text-bar {

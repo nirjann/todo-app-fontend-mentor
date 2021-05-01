@@ -9,6 +9,7 @@
     display: inline-block;
     margin: 15px;
     cursor: pointer;
+    text-align: center;
 }
 
 .radio-btn__clicked {
@@ -26,5 +27,5 @@
 }
 
 .check-icon__checked {
-    display: none;
+    display: inline;
 }
